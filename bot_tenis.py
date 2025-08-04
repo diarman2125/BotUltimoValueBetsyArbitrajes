@@ -1,5 +1,6 @@
 import requests
 import os
+print("ODDS_API_KEY:", os.getenv("ODDS_API_KEY"))
 import time
 from datetime import datetime
 from pytz import timezone
