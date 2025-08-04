@@ -3,6 +3,7 @@ import os
 import time
 from datetime import datetime
 from pytz import timezone
+print("🔥 El bot está corriendo correctamente")
 
 # Claves desde Railway (asegúrate de que estén bien nombradas)
 API_KEY = os.getenv("ODDS_API_KEY")
